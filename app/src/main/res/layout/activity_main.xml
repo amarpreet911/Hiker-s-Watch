@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@drawable/amar_sav"
+    android:background="@color/colorPrimaryDark"
     tools:context="store.data.design.com.hikers_watch.MainActivity"
     >
 
@@ -24,11 +24,12 @@
        <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-          android:text="Height App"
+          android:text="Hiker's App"
            android:layout_gravity="center_horizontal"
            android:nestedScrollingEnabled="false"
+           android:padding="30dp"
            android:id="@+id/txtHead"
-           android:textColor="#1fdc32"
+           android:textColor="@color/white"
            android:textSize="30sp"/>
 
        <TextView
@@ -36,8 +37,9 @@
            android:layout_height="wrap_content"
            android:text="Latitude: 37.54"
            android:id="@+id/txtLat"
-           android:textColor="#1fdc32"
-           android:layout_gravity="center_horizontal"
+           android:padding="7dp"
+           android:textColor="@color/white"
+           android:layout_gravity="left"
            android:textSize="20sp"/>
 
        <TextView
@@ -45,8 +47,9 @@
            android:layout_height="wrap_content"
            android:text="Longitude: 67.56"
            android:id="@+id/txtLon"
-           android:textColor="#1fdc32"
-           android:layout_gravity="center_horizontal"
+           android:padding="7dp"
+           android:textColor="@color/white"
+           android:layout_gravity="left"
            android:textSize="20sp"/>
 
        <TextView
@@ -54,41 +57,46 @@
            android:layout_height="wrap_content"
            android:text="Altitude: 75"
            android:id="@+id/txtAlt"
-           android:textColor="#1fdc32"
-           android:layout_gravity="center_horizontal"
+           android:padding="7dp"
+           android:textColor="@color/white"
+           android:layout_gravity="left"
            android:textSize="20sp"/>
        <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="Bearing: "
-           android:textColor="#1fdc32"
+           android:textColor="@color/white"
            android:id="@+id/txtBear"
-           android:layout_gravity="center_horizontal"
+           android:padding="7dp"
+           android:layout_gravity="left"
            android:textSize="20sp"/>
        <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="Speed: 5"
            android:id="@+id/txtSpeed"
-           android:textColor="#1fdc32"
-           android:layout_gravity="center_horizontal"
+           android:textColor="@color/white"
+           android:padding="7dp"
+           android:layout_gravity="left"
            android:textSize="20sp"/>
        <TextView
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="Accuracy: 20.56"
-           android:textColor="#1fdc32"
+       android:textColor="@color/white"
+           android:padding="7dp"
        android:id="@+id/txtAccu"
-       android:layout_gravity="center_horizontal"
+           android:layout_gravity="left"
        android:textSize="20sp"/>
 
        <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="Address: KP-229, Pitam-Pura"
-           android:textColor="#1fdc32"
+           android:textColor="@color/white"
+           android:padding="7dp"
            android:id="@+id/txtAdd"
-           android:layout_gravity="center_horizontal"
+           android:layout_gravity="left"
            android:textSize="20sp"/>
    </LinearLayout>
 
